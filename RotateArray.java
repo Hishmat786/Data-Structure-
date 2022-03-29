@@ -19,7 +19,7 @@ class solution{
 		}
 		System.out.println("Rotated Array");
 		for(int i=0; i<size;i++){
-			System.out.println(arrayNew[i]);
+			System.out.print(arrayNew[i]+" ");
 		}
 		
 	}
@@ -27,8 +27,10 @@ class solution{
 public class RotateArray{
 	public static void main(String[] ar){
 		Scanner cin= new Scanner(System.in);
+
 		System.out.print("Enter size of array:");
 		int size= cin.nextInt();
+
 		System.out.println("Enter array:");
 		int[] arr= new int[size];
 		
